@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO LIST</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+ 
+       
+    </head>
+    <body>
+      
+        
+    <div class="container">
+      <h1>TODO List</h1>
+      <div id="adding">
+        <p>
+          <!-- <label for="new-task">Add Item</label> -->
+          <input id="new-task" type="text">
+          <button id="add-button"><i class="fas fa-plus"></i></button>
+        </p>
+      </div>
+  
+
+      <div class="grocery_list">
+        <h3> Grocery Items </h3>
+        <ul id="incomplete-tasks">
+     
+          <li class="editMode"><input type="checkbox" class="checkbox">
+            <label>Buy Rice&nbsp;</label>
+            <input type="text" class='edit-text' value="Buy Rice">&nbsp;
+            <button class="edit-button"><i class="fas fa-edit"></i></button>
+            <button class="delete-button"><i class="fas fa-trash-alt"></i></button>
+          </li>
+  
+        </ul>
+
+      </div>
+     
+        <h6>🗸for confirming list item
+        <i class="fas fa-edit"></i>for updating list item
+        </h6>
+      </div>
+
+
+<div id="updates">
+  <h3>Read and Update</h3>
+  <ul id="completed-tasks">
+    <li>
+      <input type="checkbox" class="checkbox"checked>
+      <label>Buy Rice</label>
+      <input type="text" class = 'edit-text'>&nbsp;
+      <button class="edit-button"><i class="fas fa-edit"></i></button>
+      <button class="delete-button"><i class="fas fa-trash-alt"></i></button>
+    </li>
+  </ul>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+      
+</body>
+</html>
